@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant:400,700&display=swap');
+
+
+
+
+:root {
+  --primary-color: #cc79aa;
+  --primary-dark: #0d2154;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lora';
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+
+button {
+  font-family: 'Quicksand', serif;
+  padding: .7rem 1.5rem;
+  border-radius: 4px;
+  padding: 0.8rem;
+  background-color: #cc79aa;
+  border: 1px solid #cc79aa;
+  color: #f8f8f8;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  border-radius: 5px !important;
+
+}
+button {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+button:hover {
+  cursor: pointer;
+
+  background-color: rgba(255, 255, 255, 0.993);
+  border: 1px solid #bb7d92;
+  color: black;
+  border: 1px solid rgba(#000, .05);
+  box-shadow: 1px 1px 2px rgba(#fff, .2);
+ 
+
+}
+
+@media screen and (max-width: 940px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+html{scroll-behavior:smooth}
+
+
+
+
+
+
